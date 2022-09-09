@@ -1,0 +1,49 @@
+//Import Files
+
+//Variblies
+@use "../Variblies/Variblies.scss" as *;
+
+//Animation
+@use "../Helpers/Animation.scss" as *;
+
+@mixin linkRest() {
+    color: unset;
+    text-decoration: none;
+}
+
+@mixin center() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin slidToBottom() {
+    -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@mixin overlay($color, $top) {
+    position: absolute;
+    top: $top;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $color;
+}
+
+@mixin btnMain() {
+    background-color: $color-crimson;
+    color: $color-black;
+    font: {
+        size: 18px;
+        family: $font-base;
+    }
+    letter-spacing: 0.04em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all $transition-time;
+    &:hover{
+        color: $color-grey;
+    }
+}

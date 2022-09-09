@@ -1,0 +1,26 @@
+//Import Files
+
+//Variblies
+@use "../../scss/Variblies/Variblies.scss" as *;
+
+//Mixin
+@use "../../scss/Helpers/Mixin.scss" as *;
+
+#intro{
+    video{
+        object-fit: cover;
+    }
+    .overlay{
+        position: absolute;
+        inset: 0;
+        background-color: rgba(0,0,0,0.3);
+        .icon{
+            font-size: 50px;
+            width: 120px;
+            height: 120px;
+            cursor: pointer;
+            color: $color-white;
+            border: 1px solid $color-white;
+        }
+    }
+}

@@ -1,0 +1,51 @@
+//Import Files
+
+//Variblies
+@use "../../scss/Variblies/Variblies.scss" as *;
+
+//Mixin
+@use "../../scss/Helpers/Mixin.scss" as *;
+
+#gallery{
+    background-color: $color-black;
+    .content{
+        h2{
+            color: $color-golden;
+            text-transform: capitalize;
+            letter-spacing: 0.04em;
+            font-weight: bold;
+            font-size: 45px;
+        }
+        p{
+            color: $color-white;
+            font-family: $font-base;
+            font-weight: 400;
+            font-size: 18px;
+            letter-spacing: 0.04em;
+            text-transform: capitalize;
+        }
+        .btnMain{
+            @include btnMain();
+            background-color: $color-golden;
+            &:hover{
+                color: $color-black;
+            }
+        }
+    }
+    .imgbox{
+        transition: all $transition-time;
+        .overlay{
+            @include overlay(rgba(0,0,0,0.3),0);
+            opacity: 0;
+            transition: all $transition-time;
+            .icon{
+                font-size: 25px;
+                color: $color-white;
+                cursor: pointer;
+            }
+        }
+        &:hover .overlay{
+            opacity: 1;
+        }
+    }
+}

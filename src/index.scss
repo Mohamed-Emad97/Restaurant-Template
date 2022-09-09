@@ -1,0 +1,63 @@
+//Import Files
+//Variblies
+@use "./scss/Variblies/Variblies.scss" as *;
+
+//Mixin
+@use "./scss/Helpers/Mixin.scss" as *;
+
+//Navbar Section File
+@use "./components/Navbar/Navbar.scss" as *;
+
+//Home Section File
+@use "./components/Home/Home.scss" as *;
+
+//About Section File
+@use "./components/About/About.scss" as *;
+
+//Menu Section File
+@use "./components/Menu/Menu.scss" as *;
+
+//Chef Section File
+@use "./components/Chef/Chef.scss" as *;
+
+//Intro Section File
+@use "./components/Intro/Intro.scss" as *;
+
+//Laurels Section File
+@use "./components/Laurels/Laurels.scss" as *;
+
+//Gallery Section File
+@use "./components/Gallery/Gallery.scss" as *;
+
+//Contact Section File
+@use "./components/Contact/Contact.scss" as *;
+
+//News Section File
+@use "./components/News/News.scss" as *;
+
+//Footer Section File
+@use "./components/Footer/Footer.scss" as *;
+
+//Global Rules
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+$socials: ("facebook": #1877f2, "twitter": #1da1f2, "dribble": #9ba5a8, "google": #dd4b39, "github": #333,"instagram": #e1306c);
+
+@each $name, $color in $socials {
+    .#{$name}{
+        font-size: 18px;
+        cursor: pointer;
+        transition: all $transition-time;
+    }
+    .#{$name}:hover{
+        color: $color !important;
+    }
+}
+
+body{
+  font-family: $font-base;
+}
+
+.center{
+  @include center();
+}

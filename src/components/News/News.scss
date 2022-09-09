@@ -1,0 +1,50 @@
+//Import Files
+
+//Variblies
+@use "../../scss/Variblies/Variblies.scss" as *;
+
+//Mixin
+@use "../../scss/Helpers/Mixin.scss" as *;
+
+#news{
+    background-color: $color-black;
+    .title{
+        h2{
+            color: $color-golden;
+            text-transform: capitalize;
+            letter-spacing: 0.04em;
+            font-weight: bold;
+            font-size: 50px;
+        }
+        p{
+            color: $color-white;
+            font-family: $font-base;
+            font-weight: 400;
+            font-size: 18px;
+            letter-spacing: 0.04em;
+            text-transform: capitalize;
+        }
+    }
+    form{
+        gap: 30px;
+        input{
+            outline: none;
+            border: 1px solid $color-golden;
+            color: $color-golden;
+            background-color: transparent;
+            &::placeholder{
+                color: $color-golden;
+            }
+            &:focus{
+                outline: 1px solid $color-crimson;
+            }
+        }
+        .btnMain{
+            @include btnMain();
+            background-color: $color-golden;
+            &:hover{
+                color: $color-black;
+            }
+        }
+    }
+}

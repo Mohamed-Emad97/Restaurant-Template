@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Restaurant-Template/static/css/main.57aa7cf8.css",
+    "main.js": "/Restaurant-Template/static/js/main.45fb77a7.js",
+    "static/js/787.aab8bd84.chunk.js": "/Restaurant-Template/static/js/787.aab8bd84.chunk.js",
+    "static/media/meal.mp4": "/Restaurant-Template/static/media/meal.a1b6c6dc67dfa2f99343.mp4",
+    "static/media/bg.png": "/Restaurant-Template/static/media/bg.3d421b1b5682e1b67deb.png",
+    "static/media/welcome.png": "/Restaurant-Template/static/media/welcome.d724eb984456d9c97470.png",
+    "static/media/findus.png": "/Restaurant-Template/static/media/findus.585c393ccd3671513743.png",
+    "static/media/laurels.png": "/Restaurant-Template/static/media/laurels.e760828692795d4aafd7.png",
+    "static/media/chef.png": "/Restaurant-Template/static/media/chef.02d6c5b61bfdc70303b4.png",
+    "static/media/menu.png": "/Restaurant-Template/static/media/menu.a8287c67809afebcc280.png",
+    "static/media/gallery04.png": "/Restaurant-Template/static/media/gallery04.c36a695f8a3b9d311106.png",
+    "static/media/gallery03.png": "/Restaurant-Template/static/media/gallery03.b2d50180e8590d4dd330.png",
+    "static/media/gallery02.png": "/Restaurant-Template/static/media/gallery02.27663bd9016b72ccd328.png",
+    "static/media/knife.png": "/Restaurant-Template/static/media/knife.1121c0a5afb62acb31cb.png",
+    "static/media/G.png": "/Restaurant-Template/static/media/G.b571eb82e589ec305ec9.png",
+    "static/media/logo.png": "/Restaurant-Template/static/media/logo.0286194c03de0a90dac9.png",
+    "static/media/award02.png": "/Restaurant-Template/static/media/award02.8bbdd51499739653b003.png",
+    "static/media/award05.png": "/Restaurant-Template/static/media/award05.48a7f5206184009dcb29.png",
+    "static/media/award01.png": "/Restaurant-Template/static/media/award01.361a4bc44b59b55abeda.png",
+    "static/media/award03.png": "/Restaurant-Template/static/media/award03.3f7ee934c17dccbd5fc6.png",
+    "static/media/sign.png": "/Restaurant-Template/static/media/sign.9bf0bd90ad4caa17991f.png",
+    "index.html": "/Restaurant-Template/index.html",
+    "main.57aa7cf8.css.map": "/Restaurant-Template/static/css/main.57aa7cf8.css.map",
+    "main.45fb77a7.js.map": "/Restaurant-Template/static/js/main.45fb77a7.js.map",
+    "787.aab8bd84.chunk.js.map": "/Restaurant-Template/static/js/787.aab8bd84.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57aa7cf8.css",
+    "static/js/main.45fb77a7.js"
+  ]
+}
